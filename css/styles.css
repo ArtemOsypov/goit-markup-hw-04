@@ -394,11 +394,8 @@ body {
 
 .clients-item {
   display: flex;
-  width: calc((100%-150px) / 6);
-  /* width: 170px; */
+  width: calc((100% - 150px) / 6);
   height: 92px;
-  /* border: 1px solid rgba(175, 177, 184, 1);
-  border-radius: 4px; */
 }
 
 .clients-link {
@@ -418,14 +415,10 @@ body {
 
 .clients-link:hover {
   border: 1px solid var(--accent-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .clients-link:focus {
   border: 1px solid var(--accent-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .clients-link:hover .client-logo,
@@ -511,7 +504,6 @@ body {
   /* width: 206px;
   height: 80px; */
   margin-left: 70px;
-  margin-top: 12px;
 }
 
 .footer-social-list {
@@ -577,7 +569,8 @@ body {
 .button-item:focus {
   background-color: var(--color-button-active);
   color: var(--color-button);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-section {
   list-style-type: none;
